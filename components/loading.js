@@ -173,6 +173,15 @@ export default function Loading({ onChange }) {
                 height: 100%;
                 transform: scale(.9);
             }
+
+            @media (max-width: 767.98px) {
+                .background{
+                    top: 60%;
+                    left: 0;
+                    transform: scale(2.2)
+                }
+
+            }
         `}</style>
         <div ref={loading} className="loading">
             <div ref={separator} className="separator"></div>
@@ -372,19 +381,19 @@ export default function Loading({ onChange }) {
                     <rect x="1669.48" y="1659.23" width="108" height="15" rx="7.5" transform="rotate(15 1669.48 1659.23)" fill="#EEEEEE"/>
                     <rect x="1663.01" y="1683.37" width="192" height="25" rx="12.5" transform="rotate(15 1663.01 1683.37)" fill="#EEEEEE"/>
                     </g>
-                    <rect ref={item1_bg} x="765.136" y="162.153" width="282" height="297" transform="rotate(15 765.136 162.153)" fill="#25BBF1" fill-opacity="0.86"/>
+                    <rect ref={item1_bg} x="765.136" y="162.153" width="282" height="297" transform="rotate(15 765.136 162.153)" fill="#25BBF1" fillOpacity="0.86"/>
                     <rect ref={item1_price} x="813.682" y="290.076" width="122" height="15" rx="7.5" transform="rotate(15 813.682 290.076)" fill="#EEEEEE"/>
                     <rect ref={item1_btn} x="770.816" y="314.825" width="192" height="39" rx="19.5" transform="rotate(15 770.816 314.825)" fill="white"/>
                     <rect x="821.284" y="342.841" width="80" height="10" rx="5" transform="rotate(15 821.284 342.841)" fill="#EEEEEE"/>
-                    <rect ref={item2_bg} x="294.5" y="713.117" width="282" height="297" transform="rotate(15 294.5 713.117)" fill="#25BBF1" fill-opacity="0.86"/>
+                    <rect ref={item2_bg} x="294.5" y="713.117" width="282" height="297" transform="rotate(15 294.5 713.117)" fill="#25BBF1" fillOpacity="0.86"/>
                     <rect ref={item2_price} x="343.045" y="841.04" width="122" height="15" rx="7.5" transform="rotate(15 343.045 841.04)" fill="#EEEEEE"/>
                     <rect ref={item2_btn} x="300.179" y="865.789" width="192" height="39" rx="19.5" transform="rotate(15 300.179 865.789)" fill="white"/>
                     <rect x="350.647" y="893.805" width="80" height="10" rx="5" transform="rotate(15 350.647 893.805)" fill="#EEEEEE"/>
-                    <rect ref={item3_bg} x="1584.61" y="720.265" width="282" height="297" transform="rotate(15 1584.61 720.265)" fill="#25BBF1" fill-opacity="0.86"/>
+                    <rect ref={item3_bg} x="1584.61" y="720.265" width="282" height="297" transform="rotate(15 1584.61 720.265)" fill="#25BBF1" fillOpacity="0.86"/>
                     <rect ref={item3_price} x="1633.15" y="848.188" width="122" height="15" rx="7.5" transform="rotate(15 1633.15 848.188)" fill="#EEEEEE"/>
                     <rect ref={item3_btn} x="1590.29" y="872.937" width="192" height="39" rx="19.5" transform="rotate(15 1590.29 872.937)" fill="white"/>
                     <rect x="1640.76" y="900.954" width="80" height="10" rx="5" transform="rotate(15 1640.76 900.954)" fill="#EEEEEE"/>
-                    <rect ref={item4_bg} x="1415.34" y="1351.98" width="282" height="297" transform="rotate(15 1415.34 1351.98)" fill="#25BBF1" fill-opacity="0.86"/>
+                    <rect ref={item4_bg} x="1415.34" y="1351.98" width="282" height="297" transform="rotate(15 1415.34 1351.98)" fill="#25BBF1" fillOpacity="0.86"/>
                     <rect ref={item4_price} x="1463.89" y="1479.9" width="122" height="15" rx="7.5" transform="rotate(15 1463.89 1479.9)" fill="#EEEEEE"/>
                     <rect ref={item4_btn} x="1421.02" y="1504.65" width="192" height="39" rx="19.5" transform="rotate(15 1421.02 1504.65)" fill="white"/>
                     <rect x="1471.49" y="1532.67" width="80" height="10" rx="5" transform="rotate(15 1471.49 1532.67)" fill="#EEEEEE"/>

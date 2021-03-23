@@ -21,7 +21,13 @@ export default function Current({ current, total }){
                     
                     opacity: 0;
                     transform: translateY(-50px)
-                }    
+                } 
+
+                @media (max-width: 767.98px) {
+                    span {
+                        display: none;
+                    }
+                }   
             `}</style>
             <span ref={contCurrent}>{current} de {total}</span>
         </>

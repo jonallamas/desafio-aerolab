@@ -68,7 +68,25 @@ export default function Filters({ current, total, active, onChange }) {
                 .active {
                     background-color: #0AD4FA;
                     color: #fff
-                }    
+                }   
+
+                @media (max-width: 767.98px) {
+                    div {
+                        margin: 0;
+                        padding: 0 .5rem;
+                        border: none;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    span {
+                        display: none
+                    }
+
+                    button {
+                        margin: 0
+                    }
+                } 
             `}</style>
             <div ref={filters}>
                 <span>Sort by:</span>

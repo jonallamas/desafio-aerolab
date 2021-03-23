@@ -51,6 +51,12 @@ export default function Navbar() {
                     z-index: 10
                 }
 
+                @media (max-width: 767.98px) {
+                    nav {
+                        top: 0
+                    }
+                }
+
                 .container {
                     background-color: #fff;
                     display: flex;

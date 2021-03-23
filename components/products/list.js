@@ -73,6 +73,12 @@ export default function ProductsList() {
 
                     opacity: 0
                 }
+
+                @media (max-width: 767.98px) {
+                    .list {
+                        grid-template-columns: 1fr
+                    }
+                }
             `}</style>
             <Container>
                 <div ref={filters} className="filters">

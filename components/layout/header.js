@@ -43,6 +43,12 @@ export default function Header() {
                     opacity: 0
                 }    
 
+                @media (max-width: 767.98px) {
+                    header {
+                        padding: 0 1rem;
+                    }
+                }
+
                 h1 {
                     opacity: 0,
                     transform: translateY(-50px)
